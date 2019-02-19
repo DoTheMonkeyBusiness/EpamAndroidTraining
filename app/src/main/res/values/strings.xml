@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">EpamAndroidTest</string>
-    <string name="textView">New string</string>
+    <string name="myText">New string</string>
 </resources>
