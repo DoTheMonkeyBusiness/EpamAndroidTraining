@@ -1,5 +1,6 @@
 package com.example.epamandroidtest;
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), "toast feature_2", Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(), "second toast feature_2", Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(), "third toast feature_2", Toast.LENGTH_LONG).show();
+
+        textView.setText(R.string.textView);
 
 
 
