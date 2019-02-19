@@ -29,5 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         button1.setText(R.string.button1_new_text);
+
     }
 }
