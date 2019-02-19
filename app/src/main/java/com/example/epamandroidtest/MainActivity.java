@@ -3,12 +3,14 @@ package com.example.epamandroidtest;
 import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = "EpamAndroidTraining";
     private TextView text;
     private Button button1;
     @Override
@@ -30,5 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
         button1.setText(R.string.button1_new_text);
 
+        Log.e(TAG, "message to stash");
     }
 }
