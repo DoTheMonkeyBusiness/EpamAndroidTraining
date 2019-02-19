@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EpamAndroidTest</string>
+    <string name="button1">EpamAndroidTest</string>
+    <string name="button1_new_text">New text</string>
 </resources>
